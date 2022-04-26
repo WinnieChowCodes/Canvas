@@ -11,6 +11,8 @@
 */
 echo <<<CREATE
 <head>
+    <!--Ensures that the site styling remains consistant on multiple devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
