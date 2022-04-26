@@ -12,5 +12,5 @@ $connection = mysqli_connect($host,$user,$password,$dbName);
 
 if(!$connection){
     die("Connection Failed");
-}s
+}
 ?>
