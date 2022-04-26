@@ -9,6 +9,9 @@
  *  - https://www.w3schools.com/jquery/default.asp 
  * 
 */
+include "sessions/userSession.php";
+include "functions/connection.php";
+
 echo <<<CREATE
 <head>
     <!--Ensures that the site styling remains consistant on multiple devices-->
