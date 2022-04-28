@@ -50,7 +50,6 @@ echo <<<CREATE
       border: 1px solid #f1f1f1;
       margin-bottom: 25px;
     }
-
     .registerbtn {
       background-color: #000000;
       color: rgb(255, 255, 255);
@@ -82,29 +81,26 @@ echo <<<CREATE
     </head>
     <body>
     
-    <form action="/action_page.php">
+    <form id="registerForm" method="POST" action="registerSuccess.php">
       <div class="container">
         <h1>Canvas Register</h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
-    
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-        <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
-
-        <label for="Name"><b>Name</b></label>
-        <input type="text" placeholder="Enter Name" name="Name" id="Name" required>
-    
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    
-        <label for="psw-repeat"><b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-        <hr>
-    
-        <button type="submit" class="registerbtn">Register</button>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                <label for="Name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" id="password" required>
+            
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+            
+                <button type="submit" class="registerbtn">Register</button>
       </div>
       
     </form>
