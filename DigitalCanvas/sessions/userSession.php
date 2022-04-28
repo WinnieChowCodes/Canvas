@@ -4,7 +4,7 @@
 */
 
 session_start();
-$uid="1";
+$uid="";
 $loggedIn = false;
 //checks if a uid session has been returned from the client machine
 if(isset($_SESSION['loggedIn'])){
